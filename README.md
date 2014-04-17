@@ -1,4 +1,4 @@
-# PuckNode API
+# PuckIQ API
 ## Usage Guide
 
 This is a pretty simple system built to parse through the NHL's website of playbyplay reports. The system uses Express, Cheerio and Request to make calls to the NHL's website and request playbyplay reports. The HTML is then parsed and outputted into a universal JSON object.
