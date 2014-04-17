@@ -1,0 +1,23 @@
+{
+  "name": "pucknode-api",
+  "version": "0.1.1",
+  "author": "OilFanInYYC <zmunoz@gmail.com>",
+  "description": "A system to parse the NHL.com play by play data and output it in an easy to use JSON format.",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "nhl",
+    "analytics",
+    "playbyplay",
+    "hockey"
+  ],
+  "dependencies": {
+    "express": "3.1.x",
+    "cheerio": "*",
+    "request": "*",
+    "sprintf-js": "*"
+  },
+  "license": "MIT"
+}
