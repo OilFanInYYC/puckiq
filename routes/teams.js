@@ -81,6 +81,15 @@ var teams = [
     "TeamNick":"COYOTES"
   },
   {
+    "name":"ARIZONA COYOTES",
+    "TeamSchedule":"ARIZONA",
+    "TeamCity":"ARIZONA",
+    "TeamPXP":"ARZ",
+    "teamID":"ARZ",
+    "TeamHashtag":"#Yotes",
+    "TeamNick":"COYOTES"
+  },
+  {
     "name":"NEW JERSEY DEVILS",
     "TeamSchedule":"NEW JERSEY",
     "TeamCity":"NEW JERSEY",
