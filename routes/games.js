@@ -27,13 +27,18 @@ function GameHandler(request, cheerio) {
 				break;
 		}
 
-		var gameid = sprintf('%04f', parseInt(req.params.gameid));
+		if(req.params.season < 20072008) {
+			res.send('Season has no data');
+		} else {
 
-		var playbyplayUrl = 'http://' + htmlReportsUrl + '/' + season + '/PL' + gametype + gameid + '.HTM';
+			var gameid = sprintf('%04f', parseInt(req.params.gameid));
 
-		playByPlay(season, gametype, gameid, function(gamedata) {
-			res.send(gamedata);
-		});
+			var playbyplayUrl = 'http://' + htmlReportsUrl + '/' + season + '/PL' + gametype + gameid + '.HTM';
+
+			playByPlay(season, gametype, gameid, function(gamedata) {
+				res.send(gamedata);
+			});
+		}
 	}
 
 	this.getFenwickEvents = function(req, res) {

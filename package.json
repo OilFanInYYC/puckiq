@@ -5,7 +5,7 @@
   "description": "A system to parse the NHL.com play by play data and output it in an easy to use JSON format.",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "keywords": [
     "nhl",
@@ -18,7 +18,8 @@
     "cheerio": "*",
     "request": "*",
     "sprintf-js": "*",
-    "http": "*"
+    "http": "*",
+    "ntwitter": "*"
   },
   "license": "MIT"
 }
